@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body #number
+{
+font-size: 100px;
+padding: 0px;
+}
+
+body .incrementButtons
+{
+    background-color: rgb(68, 149, 255);
+    color: white;
+    font-weight: 700;
+    min-height: 36px;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+body .incrementButtons:hover{
+   opacity: 0.5;
+}
